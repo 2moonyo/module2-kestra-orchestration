@@ -178,17 +178,5 @@ docker logs pgdatabase
 docker logs pgadmin
 ```
 
-## Troubleshooting
-
-**Can't access pgAdmin?**
-- Make sure you're using `http://localhost:8085`
-- Check if the container is running: `docker ps`
-
-**Need to start over?**
-```bash
-docker-compose down -v
-docker-compose up -d
-# Then run ingestion again
-```
 
 
